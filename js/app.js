@@ -76,10 +76,10 @@ City.prototype.render=function(){
 };
 
 const Seattle=new City('Paris',23,65,6.3);
-const Dubai=new City('Dubai',23,65,6.3);
-const Tokyo=new City('Tokyo',23,65,6.3);
-const Lima=new City('Lima',23,65,6.3);
-const Paris=new City('Paris',23,65,6.3);
+const Dubai=new City('Dubai',11,38,3.7);
+const Tokyo=new City('Tokyo',3,24,1.2);
+const Lima=new City('Lima',2,16,4.6);
+const Paris=new City('Paris',20,38,2.3);
 
 
 for (let index = 0; index < timeArr.length; index++) {

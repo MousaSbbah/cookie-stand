@@ -18,6 +18,29 @@
         </nav> 
      </header>
 <main>
+    <form action="" id='addNewBranch'>
+        <fieldset>
+            <legend>Add New Branch</legend>
+            <label for="shopLocation">Branch Location</label>
+            <input type="text" id="shopLocation" name="shop_location" maxlength="15" minlength="3" required >
+    
+            
+    
+            <label for="maxCust">Maximum Hourly Customers:</label>
+            <input type="number" id="maxCust" name="max_customers"  min="5" max="100" required >
+
+            <label for="minCust">Minimum Hourly Customers:</label>
+            <input type="number" id="minCust" name="min_customers"  min="1" max="99" required >
+
+            <label for="avgCookie">The Average Cookies Per Customer: </label>
+            <input type="number" id="avgCookie" name="average_cookie"  min="1" max="20" required >
+
+
+    
+            <button type="submit">Save</button>
+
+        </fieldset>
+    </form>
 <div id="Shops Sales">
 <table id="sales table">
 
